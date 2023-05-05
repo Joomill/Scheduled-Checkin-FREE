@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<extension type="plugin" group="task" method="upgrade">
+	<name>PLG_TASK_CHECKIN</name>
+    <creationDate>March 2023</creationDate>
+    <author>Joomill</author>
+    <copyright>(C) 2023 Joomill</copyright>
+    <license>GNU General Public License version 2</license>
+    <authorEmail>info@joomill-extensions.com</authorEmail>
+    <authorUrl>www.joomill-extensions.com</authorUrl>
+    <version>4.1.0</version>
+    <description>
+        <![CDATA[
+		<p>Automatically check-in in all items that are checked out longer than you defined.</p>
+		<div class="alert alert-success">This is the FREE version of The Scheduled Check-in Items plugin. <br/> Some features and support are only available in the <a class="alert-link" target="_blank" href="https://www.joomill-extensions.com/extensions/automatic-checkin-articles">PRO Version</a></div>
+ 		<p>
+		<a href="https://docs.joomill-extensions.com/v/scheduled-check-in-items-plugin/" target="_blank" class="btn btn-primary">Manual</a>
+		<a href="https://www.joomill-extensions.com/extensions/automatic-checkin-articles" target="_blank" class="btn btn-success">Get PRO Version</a>
+		</p>
+		<br/>
+		<p>
+		Follow me for more information about Joomla and updates for Joomill extensions:<br/>
+		<a href="https://www.twitter.com/Joomill" target="_blank"><i class="fab fa-twitter-square fa-2x" style="color:#1DA1F2;"></i></a>
+		<a href="https://www.instagram.com/Joomill" target="_blank"><i class="fab fa-instagram-square fa-2x" style="color:#E1306C;"></i></a>
+		<a href="https://www.facebook.com/Joomill" target="_blank"><i class="fab fa-facebook-square fa-2x" style="color:#4267B2;"></i></a>
+		</p>
+		<style>
+		a[target="_blank"]::before {
+			content: "";
+		}
+		</style>
+		]]>
+    </description>
+	
+    <files>
+		<filename plugin="checkin">checkin.php</filename>
+        <filename>script.php</filename>
+        <folder>elements</folder>
+		<folder>language</folder>
+		<folder>forms</folder>
+	</files>
+
+    <!-- Scripts to run on installation -->
+    <scriptfile>script.php</scriptfile>
+
+	<changelogurl><![CDATA[https://www.joomill-extensions.com/index.php?option=com_ochsubscriptions&amp;view=changelog&amp;format=xml&amp;cat=15]]></changelogurl>
+
+    <updateservers>     
+        <server type="extension" priority="1" name="Scheduled Check-in Items"><![CDATA[https://www.joomill-extensions.com/index.php?option=com_ochsubscriptions&amp;view=updater&amp;format=xml&amp;cat=15]]></server>
+    </updateservers>
+</extension>

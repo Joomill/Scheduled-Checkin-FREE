@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<form>
+	<fields name="params">
+		<fieldset name="task_params" addfieldpath="/plugins/task/checkin/elements">
+			<field 
+					name="maxcheckout"
+					type="list"
+					description="PLG_TASK_CHECKIN_MAXCHECKOUT_DESC"
+					label="PLG_TASK_CHECKIN_MAXCHECKOUT_LABEL"
+					default="24"
+				>
+				<option value="1">1 hour</option>
+				<option value="2">2 hours</option>
+				<option value="3">3 hours</option>
+				<option value="4">4 hours</option>
+				<option value="5">5 hours</option>
+				<option value="6">6 hours</option>
+				<option value="12">12 hours</option>
+				<option value="24">24 hours</option>
+				<option value="36">36 hours</option>
+				<option value="48">48 hours</option>
+			</field>
+
+			<field
+					type="spacer"
+					name="core"
+					class="alert alert-primary"
+					label="PLG_TASK_CHECKIN_CORE_LABEL"
+			/>
+			
+			<field
+					name="articles"
+					type="radio"
+					label="PLG_TASK_CHECKIN_ARTICLES_LABEL"
+					layout="joomla.form.field.radio.switcher"
+					default="1"
+					filter="integer"
+				>
+				<option value="0">JNO</option>
+				<option value="1">JYES</option>
+			</field>
+			
+			<field
+					name="categories"
+					type="pro"
+					label="PLG_TASK_CHECKIN_CATEGORIES_LABEL"
+			/>
+			
+			<field
+					name="menus"
+					type="pro"
+					label="PLG_TASK_CHECKIN_MENUITEMS_LABEL"
+			/>
+			
+			<field
+					name="modules"
+					type="pro"
+					label="PLG_TASK_CHECKIN_MODULES_LABEL"
+			/>
+
+			<field
+					name="plugins"
+					type="pro"
+					label="PLG_TASK_CHECKIN_PLUGINS_LABEL"
+			/>
+
+			<field
+					name="banners"
+					type="pro"
+					label="PLG_TASK_CHECKIN_BANNERS_LABEL"
+			/>
+
+			<field
+					name="contacts"
+					type="pro"
+					label="PLG_TASK_CHECKIN_CONTACTS_LABEL"
+			/>
+
+			<field
+					name="fields"
+					type="pro"
+					label="PLG_TASK_CHECKIN_FIELDS_LABEL"
+			/>
+
+			<field
+					name="finder"
+					type="pro"
+					label="PLG_TASK_CHECKIN_FINDER_LABEL"
+			/>
+
+			<field
+					name="newsfeeds"
+					type="pro"
+					label="PLG_TASK_CHECKIN_NEWSFEEDS_LABEL"
+			/>
+
+			<field
+					name="workflows"
+					type="pro"
+					label="PLG_TASK_CHECKIN_WORKFLOWS_LABEL"
+			/>
+
+			<field
+					name="tags"
+					type="pro"
+					label="PLG_TASK_CHECKIN_TAGS_LABEL"
+			/>
+
+			<field
+					name="tasks"
+					type="pro"
+					label="PLG_TASK_CHECKIN_TASKS_LABEL"
+			/>
+
+			<field
+					name="guidedtours"
+					type="pro"
+					label="PLG_TASK_CHECKIN_GUIDEDTOURS_LABEL"
+			/>
+
+			<field
+					type="spacer"
+					name="3rdparty"
+					class="alert alert-primary"
+					label="PLG_TASK_CHECKIN_3RDPARTY_LABEL"
+			/>
+
+			<field
+					name="sppagebuilder"
+					type="pro"
+					label="PLG_TASK_CHECKIN_SPPAGEBUILDER_LABEL"
+			/>
+
+			<field
+					name="jceprofiles"
+					type="pro"
+					label="PLG_TASK_CHECKIN_JCEPROFILES_LABEL"
+			/>
+
+			<field
+					name="joomproject"
+					type="pro"
+					label="PLG_TASK_CHECKIN_JOOMPROJECT_LABEL"
+			/>
+
+			<field
+				name=""
+				type="upgrade"
+			/>
+
+		</fieldset>
+	</fields>
+</form>

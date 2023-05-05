@@ -1,0 +1,16 @@
+Version 4.2.0 [28-04-2023]
+Changed:
+Optimize code (-50% lines)
+Added:
+Core: Guided Tours support (Joomla 4.3.0+) (PRO version only)
+Core: Finder Filters support (PRO version only)
+Core: Newsfeeds support (PRO version only)
+3rd Party: JCE Profiles support (PRO version only)
+3rd Party: JoomBoost JoomProject support (PRO version only)
+
+
+Version 4.1.0 [06-03-2023]
+Added:
+- SP Pagebuilder Support (PRO Version only)
+- Dutch Translation
+- Swedish Translation
